@@ -20,7 +20,7 @@ Browse to http://localhost:8000
 Modify for openshift
 =======================
 
-1. Modify buildout.cfg
+1.Modify buildout.cfg
 
     [versions]
     django = 1.4.1
@@ -35,7 +35,7 @@ Modify for openshift
         gunicorn
         mysql-python
 
-2. Modify lfs_project/settings.py
+2.Modify lfs_project/settings.py
 
     DATABASES = {
         'default': {
