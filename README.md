@@ -11,7 +11,8 @@ django-lfs-on-openshift
 
     rhc app cartridge add -a lfs -c mysql-5.1 -l email
 
-4. SSH into the server:
+4.SSH into the server
+
     ssh $(git config --get remote.origin.url | cut -d/ -f3)
     cd $OPENSHIFT_RUNTIME_DIR
     wget http://dl.dropbox.com/u/28357022/openshift/lfs-app.tar.gz
